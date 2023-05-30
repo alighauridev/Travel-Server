@@ -18,11 +18,7 @@ app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(fileUpload());
 app.use(cors.corsAll);
-cloudinary.config({
-    cloud_name: "dipcjbjho",
-    api_key: "884152813132763",
-    api_secret: "gqAdYCcXQdCHJ8OnOUf64moNLUA",
-});
+
 const user = require("./routes/userRoute");
 const product = require("./routes/productRoute");
 const order = require("./routes/orderRoute");
