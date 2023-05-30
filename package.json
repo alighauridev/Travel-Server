@@ -1,10 +1,10 @@
 {
-  "name": "ASE Ecommerce",
+  "name": "Travel Server",
   "version": "1.0.0",
   "description": "Full Stack ASE Ecommerce",
   "main": "backend/server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
     "frontend": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run frontend\"",
